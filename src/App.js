@@ -1,23 +1,36 @@
-import logo from './logo.svg';
+import { useEffect } from 'react';
 import './App.css';
+import About from './Components/About';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
+import Home from './Components/Home';
+import NavBar from './Components/NavBar';
+import Peers from './Components/Peers';
+import Projects from './Components/Projects';
+import Skills from './Components/Skills';
+import handleScroll from './Utilities/handleScroll';
+import initilizeAutoTyping from './Utilities/autoTypeText';
+import Video from './Components/Video';
+
 
 function App() {
+
+  useEffect(()=>{
+    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('load', initilizeAutoTyping)
+  }, []); 
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container" onScroll={()=>{console.log('Scroling')}}>
+      <NavBar/>
+      <Home/>
+      <About/>
+      <Projects/>
+      <Skills/>
+      {/* <Peers/>  */}
+      <Video/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }
