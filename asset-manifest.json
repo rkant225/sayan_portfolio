@@ -1,28 +1,18 @@
 {
   "files": {
-    "main.css": "/sayan_portfolio/static/css/main.e1182874.css",
-    "main.js": "/sayan_portfolio/static/js/main.933a98f9.js",
+    "main.css": "/sayan_portfolio/static/css/main.628c0cbf.css",
+    "main.js": "/sayan_portfolio/static/js/main.6ee639ae.js",
     "static/js/787.cce199b8.chunk.js": "/sayan_portfolio/static/js/787.cce199b8.chunk.js",
-    "static/media/deepika.png": "/sayan_portfolio/static/media/deepika.bcacd351f1671d6cfa4c.png",
-    "static/media/dheeraj.png": "/sayan_portfolio/static/media/dheeraj.8bc143696e190e459ded.png",
-    "static/media/deep.png": "/sayan_portfolio/static/media/deep.193199cee814ca28aad4.png",
-    "static/media/paritosh.png": "/sayan_portfolio/static/media/paritosh.4b0ec1d13f0ce7994f02.png",
-    "static/media/abhay.png": "/sayan_portfolio/static/media/abhay.4b48ceae1740345dd545.png",
-    "static/media/deepak.png": "/sayan_portfolio/static/media/deepak.a4cb75595711687f811d.png",
-    "static/media/subhodeep.png": "/sayan_portfolio/static/media/subhodeep.8055ddc06e0ab4d46850.png",
-    "static/media/rohit.png": "/sayan_portfolio/static/media/rohit.1ce6511c512565ef0ac4.png",
-    "static/media/intro_QR.svg": "/sayan_portfolio/static/media/intro_QR.c4507e318bee662de00d3bc75d8b8f60.svg",
-    "static/media/bg_1.jpg": "/sayan_portfolio/static/media/bg_1.de0c2eb39c223c4a120a.jpg",
     "static/media/profile-img.jpg": "/sayan_portfolio/static/media/profile-img.605cec2cbfab72edfcd9.jpg",
-    "static/media/profile-pic-two.jpeg": "/sayan_portfolio/static/media/profile-pic-two.0847a8d5f14f8f560ad6.jpeg",
+    "static/media/bg_4.jpg": "/sayan_portfolio/static/media/bg_4.45422a8a3d41059932f9.jpg",
     "static/media/Resume.pdf": "/sayan_portfolio/static/media/Resume.ac0398d4ca249e568588.pdf",
     "index.html": "/sayan_portfolio/index.html",
-    "main.e1182874.css.map": "/sayan_portfolio/static/css/main.e1182874.css.map",
-    "main.933a98f9.js.map": "/sayan_portfolio/static/js/main.933a98f9.js.map",
+    "main.628c0cbf.css.map": "/sayan_portfolio/static/css/main.628c0cbf.css.map",
+    "main.6ee639ae.js.map": "/sayan_portfolio/static/js/main.6ee639ae.js.map",
     "787.cce199b8.chunk.js.map": "/sayan_portfolio/static/js/787.cce199b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1182874.css",
-    "static/js/main.933a98f9.js"
+    "static/css/main.628c0cbf.css",
+    "static/js/main.6ee639ae.js"
   ]
 }
