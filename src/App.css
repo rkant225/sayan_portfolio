@@ -8,6 +8,16 @@ html{
   scroll-behavior: smooth;
 }
 
+body {
+  background-image: url('./Assets/bg_4.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+
+  background-color: black;
+  background-size: cover;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -22,8 +32,8 @@ html{
   position: fixed;
   bottom: 20px;
   right: 20px;
-  height: 4rem;
-  width: 4rem;
+  height: 2rem;
+  width: 2rem;
   border-radius: 50%;
   font-size: 1.2rem;
   text-align: center;
@@ -33,8 +43,8 @@ html{
   z-index: 14;
 }
 .btn-scroll-top i{
-  font-size: 3rem;
-  margin-top: .5rem;
+  font-size: 1.5rem;
+  margin-top: .3rem;
 }
 
 .btn-scroll-top:hover{
@@ -124,7 +134,9 @@ html{
 }
 
 .app-container{
-  background-color: black;
+  /* background-color: black; */
+  background-color: transparent;
+ 
 }
 
 
@@ -198,15 +210,15 @@ html{
   height: 100vh;
   width: 100%;
   /* background-image: url('./Assets/user-cover-pic.jpeg'); */
-  background-image: url('./Assets/bg_10.jpg');
-  background-color: black;
-  background-size: cover;
+  /* background-image: url('./Assets/bg_10.jpg'); */
+  /* background-color: black; */
+  /* background-size: cover; */
   display: flex;
   justify-content: right;
   /* text-align: center; */
   align-items: center;
   flex-wrap: wrap;
-  transition: 1.2s ease-in-out;
+  /* transition: 1.2s ease-in-out; */
 }
 
 .home-text-content{
@@ -287,7 +299,7 @@ html{
 /*=================================== Styling for About section ===================================*/
 .about-section-container{
   /* background-color: rgb(40,40,40,.6); */
-  border-top: 2px solid gray;
+  /* border-top: 2px solid gray; */
 }
 
 .about-me-section-header{
@@ -397,7 +409,7 @@ html{
 
 /*======================================= Projects Section Styling =======================================*/
 .project-section{
-  background-color: white;
+  /* background-color: white; */
   padding-bottom: 4rem;
 }
 
@@ -407,7 +419,7 @@ html{
   margin: 4.5rem auto;
   padding-top: 1rem;
   font-size: 2.8rem;
-  color: black;
+  color: white;
 }
 .projects-section-header::before{
   content: "";
@@ -415,7 +427,7 @@ html{
   width: 100%;
   bottom: -18%;
   left: 0;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
 }
 .projects-section-header::after{
   content: "what i built";
@@ -426,7 +438,7 @@ html{
   padding: 0 .2rem 0 .2rem;
   /* margin: auto; */
   font-size: 1.2rem;
-  background-color: white;
+  background-color: black;
   color: var(--primaryColor);
 }
 
@@ -768,7 +780,7 @@ html{
   margin: 4.5rem auto;
   padding-top: 1rem;
   font-size: 2.8rem;
-  color: black;
+  color: white;
 }
 .video-section-header::before{
   content: "";
@@ -776,7 +788,7 @@ html{
   width: 100%;
   bottom: -18%;
   left: 0;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid white;
 }
 .video-section-header::after{
   content: "brief intro";
@@ -787,12 +799,12 @@ html{
   padding: 0 .2rem 0 .2rem;
   /* margin: auto; */
   font-size: 1.2rem;
-  background-color: white;
+  background-color: black;
   color: var(--primaryColor);
 }
 
 .video-page-container{
-  background-color: white;
+  background-color: transparent;
   
 }
 .iframe-container{
@@ -810,6 +822,51 @@ iframe{
   overflow: hidden;
   resize: both;
 }
+/*======================================= Feedback section styling =======================================*/
+.feedback-page-container{
+  color: black;
+}
+
+.feedback-section-header{
+  position: relative;
+  width: max-content;
+  margin: 4.5rem auto;
+  padding-top: 1rem;
+  font-size: 2.8rem;
+  color: white;
+}
+.feedback-section-header::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: -18%;
+  left: 0;
+  border-bottom: 2px solid white;
+}
+.feedback-section-header::after{
+  content: "Testimonials";
+  position: absolute;
+  top: 99%;
+  left: 20%;
+  width: max-content;
+  padding: 0 .2rem 0 .2rem;
+  /* margin: auto; */
+  font-size: 1.2rem;
+  background-color: black;
+  color: var(--primaryColor);
+}
+
+.feedback-image-gallery-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-image-gallery{
+  width: 60%;
+}
+
+
 /*======================================= Contact section styling =======================================*/
 .contact-section-container{
   padding-bottom: 3rem;
@@ -1108,6 +1165,10 @@ iframe{
   background-color: whitesmoke;
   border-radius: .6rem;
   width: max-content;
+}
+
+.feedback-image-gallery{
+  width: 100%;
 }
 
 /* Footer section styling */

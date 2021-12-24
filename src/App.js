@@ -10,6 +10,7 @@ import Skills from './Components/Skills';
 import handleScroll from './Utilities/handleScroll';
 import initilizeAutoTyping from './Utilities/autoTypeText';
 import Video from './Components/Video';
+import Feedback from './Components/Feedback';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <Skills/>
       {/* <Peers/>  */}
       <Video/>
+      <Feedback/>
       <Contact/>
       <Footer/>
     </div>
