@@ -19,7 +19,7 @@ const Contact = () => {
 
                         <div className="all-contact-methods">
 
-                            <a href="https://www.linkedin.com/in/rahul-singh-364830a4/" target="_blank">
+                            <a href="https://www.linkedin.com/" target="_blank">
                                 <div className="contact-method-container">
                                     <i className="fa fa-user-o" aria-hidden="true"></i>
                                     <div className="contact-me-field-container">
@@ -39,7 +39,7 @@ const Contact = () => {
                                 </div>
                             </a>
 
-                            <a href="tel:+919876416884" target="_blank">
+                            <a href="tel:+919988776655" target="_blank">
                                 <div className="contact-method-container">
                                     <i className="fa fa-mobile" aria-hidden="true"></i>
                                     <div className="contact-me-field-container">
@@ -49,7 +49,7 @@ const Contact = () => {
                                 </div>
                             </a>
 
-                            <a href="https://api.whatsapp.com/send?phone=919876416884&text=Hi Rahul...!!!" target="_blank">
+                            <a href="https://api.whatsapp.com/send?phone=9989754543&text=Hi Sayan...!!!" target="_blank">
                                 <div className="contact-method-container">
                                     <i className="fa fa-whatsapp" aria-hidden="true"></i>
                                     <div className="contact-me-field-container">

@@ -1,6 +1,39 @@
 import React from 'react'
 
 const Skills = () => {
+    const EXPERIENCE = [
+        {
+            company : 'Cognizant Technology Solutions',
+            duration : 'Dec-2017 to Apr-2020'
+        },
+        {
+            company : 'Infosys Ltd.',
+            duration : 'Jun-2020 to Present'
+        }
+    ];
+
+    const SKILLS = [
+        {
+            technology : 'React',
+            percentage : '90%'
+        },
+        {
+            technology : 'Javascript',
+            percentage : '80%'
+        },
+        {
+            technology : 'HTML',
+            percentage : '60%'
+        },
+        {
+            technology : 'CSS',
+            percentage : '50%'
+        },
+        {
+            technology : 'Python',
+            percentage : '30%'
+        },
+    ]
     return (
         <>
             <a name="SKILLS" ></a>
@@ -15,61 +48,31 @@ const Skills = () => {
                         </div>
 
                         <div className="experience-container">
-                            <div className="experience">
-                                <div className="company">Cognizant Technology Solutions</div>
-                                <div className="duration">Dec-2017 to Apr-2020</div>
-                            </div>
-                            <div className="experience">
-                                <div className="company">Infosys Ltd.</div>
-                                <div className="duration">Jun-2020 to Present</div>
-                            </div>
+                            {EXPERIENCE.map((exp)=>{
+                                return(
+                                    <div className="experience">
+                                        <div className="company">{exp.company}</div>
+                                        <div className="duration">{exp.duration}</div>
+                                    </div>
+                                );
+                            })}
                         </div>
 
                         <div className="ask-me-about">
                             Ask me about <span className="typing-3"></span>
                         </div>
                     </div>
+
                     <div className="my-skills-percentage-container">
-                        <div className="technologies">
-                            <span>React JS</span>
-                            <span>90%</span>
-                            <span className="bar" style={{'--percentage' : '90%'}}></span>
-                        </div>
-                        <div className="technologies">
-                            <span>Redux</span>
-                            <span>85%</span>
-                            <span className="bar" style={{'--percentage' : '60%'}}></span>
-                        </div>
-                        <div className="technologies">
-                            <span>Javascript</span>
-                            <span>75%</span>
-                            <span className="bar" style={{'--percentage' : '75%'}}></span>
-                        </div>
-                        <div className="technologies">
-                            <span>HTML</span>
-                            <span>80%</span>
-                            <span className="bar" style={{'--percentage' : '80%'}}></span>
-                        </div>
-                        <div className="technologies">
-                            <span>CSS</span>
-                            <span>75%</span>
-                            <span className="bar" style={{'--percentage' : '75%'}}></span>
-                        </div>
-                        <div className="technologies">
-                            <span>Node JS</span>
-                            <span>40%</span>
-                            <span className="bar" style={{'--percentage' : '40%'}}></span>
-                        </div>
-                        <div className="technologies">
-                            <span>Mongo DB</span>
-                            <span>35%</span>
-                            <span className="bar" style={{'--percentage' : '35%'}}></span>
-                        </div>
-                        <div className="technologies">
-                            <span>Python</span>
-                            <span>40%</span>
-                            <span className="bar" style={{'--percentage' : '40%'}}></span>
-                        </div>
+                        {SKILLS.map((skill)=>{
+                            return(
+                                <div className="technologies">
+                                    <span>{skill.technology     }</span>
+                                    <span>{skill.percentage}</span>
+                                    <span className="bar" style={{'--percentage' : skill.percentage}}></span>
+                                </div>  
+                            );
+                        })}
                     </div>
                 </div>
             </div>

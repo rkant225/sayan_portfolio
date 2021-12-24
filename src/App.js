@@ -5,7 +5,6 @@ import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import Home from './Components/Home';
 import NavBar from './Components/NavBar';
-import Peers from './Components/Peers';
 import Projects from './Components/Projects';
 import Skills from './Components/Skills';
 import handleScroll from './Utilities/handleScroll';

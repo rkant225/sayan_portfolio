@@ -11,7 +11,7 @@ const ThemeSelectorModal = (props) => {
         onClose();
     }
     return (
-        <div className="modal">
+        <div className="modal" onClick={onClose}>
             <div className="colors">
                 <div className="color red" onClick={()=>{handleThemeColorChange('red')}}>Red</div>
                 <div className="color green" onClick={()=>{handleThemeColorChange('#26984d')}}>Green</div>

@@ -1,6 +1,4 @@
 import React from 'react'
-import {ReactComponent as Intro_QR} from '../Assets/intro_QR.svg';
-import intro_QR from '../Assets/intro_QR.svg';
 
 const Home = () => {
     return (
@@ -15,13 +13,6 @@ const Home = () => {
                     <div className="btn-know-more">Know more</div>
                 </a>
             </div>
-
-            {/* <div className="intro-qr-code-container">
-                <img className="intro-qr-code" src={intro_QR}   alt="intro-qr-code"/>
-            </div> */}
-            {/* <div className="intro-qr-code-container">
-                <Intro_QR className="intro-qr-code"/>
-            </div> */}
 
             <div title="Top" className="btn-scroll-top" onClick={()=>{window.scrollTo(0,0)}}>
                 <i className="fa fa-arrow-up" aria-hidden="true"></i>

@@ -24,6 +24,7 @@ const About = () => {
         <>
             <a name="ABOUT"></a>
 
+
             <div className="about-section-container">
                 
                 <div className="about-me-section-header">About Me</div>
@@ -34,7 +35,7 @@ const About = () => {
                     </div>
                     <div className="about-text">
                         <div className="i-am-header-under-about">I am Rahul and I'm a <span className="typing-2"></span></div>
-                            I have total 3.9 years of experience in IT/Software industry. My area of expertise is React JS, which is frontend library developed and maintained by Facebook, and I have 3 years of experience in React JS. Worked with UI technologies like HTML5, JavaScript, CSS. Hands on experience in Redux (state management). Apart from this I have good hands on experience in Python and Python based Machine Learning model building to solve business problems. 
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.                            
                             
                             <div className='about-details-grid'>
                                 <div className='about-details-grid-items'>
@@ -53,7 +54,7 @@ const About = () => {
 
                             <div id="extra-about-text" className="about-text" style={{width : '100%'}}>
                                 <br/>
-                                I have completed my Masters and Bachlors in Electronics and Communication Engineering (ECE). I loved working on electronics projects mostly programming the Arduino and Raspberry-Pi boards. I have created number of projects during my graduation, few of them are Line following robot, Visitor counter, System to controll home applinces wirelessly using Wi-Fi, Wi-Fi controlled Robo Car and many more.
+                                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature.
                                 <br/>
                                 <br/>
                                 
