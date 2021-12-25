@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/sayan_portfolio/static/css/main.b8ff7eeb.css",
-    "main.js": "/sayan_portfolio/static/js/main.3730d29b.js",
+    "main.css": "/sayan_portfolio/static/css/main.53e85bd5.css",
+    "main.js": "/sayan_portfolio/static/js/main.029029c6.js",
     "static/js/787.cce199b8.chunk.js": "/sayan_portfolio/static/js/787.cce199b8.chunk.js",
     "static/media/profile-img.jpg": "/sayan_portfolio/static/media/profile-img.605cec2cbfab72edfcd9.jpg",
     "static/media/bg_4.jpg": "/sayan_portfolio/static/media/bg_4.45422a8a3d41059932f9.jpg",
     "static/media/Resume.pdf": "/sayan_portfolio/static/media/Resume.ac0398d4ca249e568588.pdf",
+    "static/media/slick.svg": "/sayan_portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/sayan_portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/sayan_portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/sayan_portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/sayan_portfolio/index.html",
-    "main.b8ff7eeb.css.map": "/sayan_portfolio/static/css/main.b8ff7eeb.css.map",
-    "main.3730d29b.js.map": "/sayan_portfolio/static/js/main.3730d29b.js.map",
+    "main.53e85bd5.css.map": "/sayan_portfolio/static/css/main.53e85bd5.css.map",
+    "main.029029c6.js.map": "/sayan_portfolio/static/js/main.029029c6.js.map",
     "787.cce199b8.chunk.js.map": "/sayan_portfolio/static/js/787.cce199b8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8ff7eeb.css",
-    "static/js/main.3730d29b.js"
+    "static/css/main.53e85bd5.css",
+    "static/js/main.029029c6.js"
   ]
 }
