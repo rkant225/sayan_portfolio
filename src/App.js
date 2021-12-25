@@ -11,6 +11,7 @@ import handleScroll from './Utilities/handleScroll';
 import initilizeAutoTyping from './Utilities/autoTypeText';
 import Video from './Components/Video';
 import Feedback from './Components/Feedback';
+import TextFeedback from './Components/TextFeedback';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
       {/* <Peers/>  */}
       <Video/>
       <Feedback/>
+      <TextFeedback/>
       <Contact/>
       <Footer/>
     </div>
